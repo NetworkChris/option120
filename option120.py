@@ -15,7 +15,6 @@ startEndMarker = "00"
 dhcpValue = ""
 
 # Iterate over the domain name list
-
 for domain in domainName:
     # Calculate length of domain and create hex string of result
     domainLength = chr(len(domain)).encode("utf-8").hex()
